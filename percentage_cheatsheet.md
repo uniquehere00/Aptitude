@@ -98,6 +98,23 @@
 - +50% then −50% = −25%
 - Rule: always a net loss = (r/10)^2 / 100
 
+### Trick 7 – Successive % Universal Formula (Sign-Aware)
+- Formula: Net % = a + b + (ab/100)  ← a and b carry their OWN signs
+- Both discounts → a and b are negative → ab/100 is POSITIVE (reduces total discount)
+  Example: −30% and −40% → −30−40+(−30×−40/100) = −70+12 = −58%
+- Both increases → a and b are positive → ab/100 is POSITIVE (adds to increase)
+  Example: +10% and +20% → 10+20+(10×20/100) = 30+2 = +32%
+- One increase, one decrease → ab/100 is NEGATIVE (reduces net result)
+  Example: +20% and −10% → 20−10+(20×−10/100) = 10−2 = +8%
+
+| Situation | ab/100 sign | Effect |
+|---|---|---|
+| Both discounts | + (neg×neg) | Reduces total discount |
+| Both increases | + (pos×pos) | Adds to total increase |
+| One each | − (pos×neg) | Reduces net result |
+
+⚠️ Textbooks write −ab/100 only for the discount case (both negative). The universal formula always uses + and lets the signs do the work.
+
 ### Trick 3 – Finding X% of Y by Reversal
 - 8% of 75 = 75% of 8 = 6 (swap when one is easier)
 - 16% of 25 = 25% of 16 = 4
@@ -123,6 +140,25 @@
 3. "% points" vs "%" — percentage points are absolute, % is relative
 4. When population decreases for n years at different rates — multiply all factors
 5. "Increased by 1/5th" = increased by 20%, not 25%
+6. "Average % increase per year" = Total % ÷ n (simple), NOT compound formula
+7. Successive discounts are NOT additive: 30%+40% ≠ 70% off
+   → Always multiply: (1−0.30)(1−0.40) = 0.7×0.6 = 0.42 → 58% net discount
+   → Net discount formula: a + b − ab/100
+   → Find MP from SP: MP = SP / [(1−a/100)(1−b/100)]
+
+---
+
+## SOLVED TRAPS FROM PRACTICE
+
+### Q: Population 1,75,000 → 2,62,500 in 10 years. Average % increase per year?
+- "Average" = simple → Total % = (87500/175000)×100 = 50% → 50/10 = **5% per year**
+- Do NOT use (1+r/100)^10 here — that's for compound/actual growth rate (~4.14%)
+- Keyword trap: "average percent increase" = simple division always
+
+### Q: Two successive discounts 30% and 40%, SP=1500. Find MP.
+- MP × 0.7 × 0.6 = 1500 → MP × 0.42 = 1500 → MP = **3571**
+- Trap: Students add 30+40=70% → think SP = 30% of MP → get 5000 ❌
+- Rule: Consecutive discounts MULTIPLY, never add
 
 ---
 
@@ -134,3 +170,13 @@
 5. Two students' marks difference expressed as percentage
 6. Election votes as percentage
 7. Passing % marks problems
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
