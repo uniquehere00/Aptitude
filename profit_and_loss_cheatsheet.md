@@ -179,10 +179,6 @@ Example: wants 20% profit after 20% discount → MP = CP x 120/80 = 1.5 x CP →
 
 ---
 
-## SOLVED TRAPS FROM PRACTICE
-(Will be updated as questions are solved in sessions)
-
----
 
 ## PRACTICE PROBLEM TYPES (TCS NQT Frequency)
 1. Find CP or SP from given profit/loss% — basic reversal
@@ -194,3 +190,30 @@ Example: wants 20% profit after 20% discount → MP = CP x 120/80 = 1.5 x CP →
 7. Shopkeeper marks up then discounts → net profit or loss%
 8. Overall profit/loss when two items bought/sold at different %
 9. Find MP to ensure desired profit% after a given discount%
+
+
+Markup %Cost Price
+Profit %Cost Price
+Discount %Marked Price
+
+
+## SOLVED TRAPS FROM PRACTICE
+(Will be updated as questions are solved in sessions)
+
+---
+![alt text](image-5.png)
+
+![alt text](image-6.png)
+
+![alt text](image-7.png)
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)
+
+important 
+![alt text](image-10.png)
+
+![alt text](image-11.png)
+
+![alt text](image-12.png)
