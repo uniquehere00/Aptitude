@@ -225,7 +225,18 @@ O* = conclusion subject and predicate are reversed compared to premises
 ---
 
 ## SOLVED TRAPS FROM PRACTICE
-(Will be updated as questions are solved in sessions)
+
+### Q: Some cows are crows. Some crows are elephants. Conclusions: (1) Some cows are elephants. (2) All crows are elephants.
+- Both premises are I-type (Some) → I + I = NO conclusion (rule from combination table)
+- Conclusion 1 TRAP: Feels true in real life but logically fails.
+  The cows overlapping crows may be a DIFFERENT part of crows than the part overlapping elephants.
+  Left Venn: cow-crow overlap and crow-elephant overlap are separate → zero cows are elephants possible.
+  Since it fails in at least one valid diagram → does NOT definitely follow.
+- Conclusion 2 TRAP: St2 says SOME crows are elephants. Cannot strengthen Some → All. Ruled out.
+- Option A trap: Students assume Some+Some gives Some — WRONG. Middle term (crows) is never fully distributed.
+- Option C trap: Either/Or needs complementary pair (same subject, exhaustive). Here subjects differ (cows vs crows) → not complementary.
+- ANSWER: D — Neither follows.
+- KEY RULE: I + I = No conclusion. Middle term must be universal (A or E type) in at least one premise for any conclusion to flow.
 
 ---
 

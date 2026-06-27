@@ -203,7 +203,18 @@ For same time:
 ---
 
 ## SOLVED TRAPS FROM PRACTICE
-(Will be updated as questions are solved in sessions)
+
+### Q: Man covers distance x at speed y. 3 kmph faster → 40 min less. 2 kmph slower → 40 min more. Find distance.
+- Setup: x/y - x/(y+3) = 40/60 → 2y(y+3) = 9x ...(i)
+         x/(y-2) - x/y = 40/60 → y(y-2) = 3x ...(ii)
+- Divide (i)/(ii): 2(y+3)/(y-2) = 3 → y = 12 kmph
+- Sub in (ii): 12x10 = 3x → x = 40 km
+- KEY TRICK: When two conditions give two equations with same two unknowns (x and y),
+  divide the equations to eliminate x and solve for y first.
+- Pattern: faster by a saves t1, slower by b loses t2 → always set up as D=ST difference pairs
+- When t1 = t2, division gives especially clean cancellation
+
+![alt text](image-17.png)
 
 ---
 
@@ -218,3 +229,15 @@ For same time:
 8. Clock angle problems — time when hands coincide or form angle
 9. Relative speed — chasing problems
 10. Unit conversion trap — km/hr mixed with m/s
+
+
+**problems**
+
+![alt text](image-13.png)
+
+![alt text](image-14.png)
+
+![alt text](image-15.png)
+
+silly 
+![alt text](image-16.png)
